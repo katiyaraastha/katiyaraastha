@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=ASTHA%20KATIYAR&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20%C3%97%20Cloud&descAlignY=60&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=ASTHA%20KATIYAR&fontSize=52&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Software%20Engineer%20%7C%20AI%20%C3%97%20Full-Stack&descAlignY=60&descSize=18" width="100%"/>
 
 <br/>
 
 <a href="https://git.io/typing-svg">
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=700&lines=Building+systems%2C+not+just+applications.;Software+Engineering+%C3%97+AI+%C3%97+Cloud;Turning+complex+problems+into+simple+systems." alt="Typing animation"/>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=700&lines=Building+systems%2C+not+just+applications.;Software+Engineering+%C3%97+AI+%C3%97+Full-Stack;Turning+complex+problems+into+simple+systems." alt="Typing animation"/>
 </a>
 
 <br/><br/>
@@ -24,9 +24,17 @@
 
 <div align="center">
 
-### `BUILD → THINK → SHIP`
+## TECH STACK
 
-<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,react,nodejs,git,github,docker,aws&perline=10" />
+<img src="https://skillicons.dev/icons?i=cpp,python,js,ts,react,nodejs,html,css,git,github&perline=10" />
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### `BUILD → THINK → SHIP`
 
 </div>
 
