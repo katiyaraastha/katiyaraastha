@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" role="img" aria-labelledby="t">
+  <title id="t">Jarvo - AI Powered Desktop Voice Assistant project card</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#111827"/><stop offset="1" stop-color="#1B1145"/></linearGradient>
+    <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#22D3EE"/></linearGradient>
+    <marker id="arr" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#67E8F9"/></marker>
+  </defs>
+  <rect width="1000" height="300" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="998" height="298" rx="18" fill="none" stroke="url(#acc)" stroke-width="2"/>
+
+  <g font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif">
+    <!-- mic icon with sound waves -->
+    <g transform="translate(70,100)">
+      <circle cx="30" cy="30" r="46" fill="#7C3AED" fill-opacity="0.18"/>
+      <circle cx="30" cy="30" r="46" fill="none" stroke="#7C3AED">
+        <animate attributeName="r" values="46;64;46" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-opacity" values="0.8;0;0.8" dur="2.6s" repeatCount="indefinite"/>
+      </circle>
+      <rect x="20" y="6" width="20" height="36" rx="10" fill="#E5E7EB"/>
+      <path d="M10 30a20 20 0 0 0 40 0" fill="none" stroke="#E5E7EB" stroke-width="4" stroke-linecap="round"/>
+      <path d="M30 50v12M20 62h20" stroke="#E5E7EB" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <text x="190" y="62" font-size="13" font-weight="700" fill="#67E8F9" letter-spacing="3">FEATURED PROJECT  ·  TEAM OF 6</text>
+    <text x="190" y="108" font-size="44" font-weight="800" fill="#FFFFFF">Jarvo</text>
+    <text x="190" y="140" font-size="20" fill="#C4B5FD">AI Powered Desktop Voice Assistant</text>
+    <text x="190" y="172" font-size="15" fill="#9CA3AF">Control everyday desktop tasks hands-free with voice commands.</text>
+    <text x="190" y="194" font-size="15" fill="#9CA3AF">Third-year mini project at PSIT Kanpur, built in Python.</text>
+
+    <!-- tags -->
+    <g font-size="13" font-weight="600" text-anchor="middle">
+      <rect x="190" y="212" width="78" height="28" rx="14" fill="#7C3AED" fill-opacity="0.25" stroke="#7C3AED"/><text x="229" y="231" fill="#DDD6FE">Python</text>
+      <rect x="278" y="212" width="90" height="28" rx="14" fill="#2563EB" fill-opacity="0.25" stroke="#3B82F6"/><text x="323" y="231" fill="#BFDBFE">Voice AI</text>
+      <rect x="378" y="212" width="132" height="28" rx="14" fill="#EC4899" fill-opacity="0.25" stroke="#EC4899"/><text x="444" y="231" fill="#FBCFE8">Desktop Automation</text>
+      <rect x="520" y="212" width="112" height="28" rx="14" fill="#06B6D4" fill-opacity="0.25" stroke="#06B6D4"/><text x="576" y="231" fill="#CFFAFE">Teamwork</text>
+    </g>
+
+    <!-- flow -->
+    <g transform="translate(720,24)" font-size="14" font-weight="600" text-anchor="middle">
+      <rect x="0" y="0" width="230" height="44" rx="12" fill="#1F2937" stroke="#374151"/><text x="115" y="27" fill="#E5E7EB">🎙️ Listen</text>
+      <path d="M115 44V66" stroke="#67E8F9" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arr)"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+      <rect x="0" y="70" width="230" height="44" rx="12" fill="#1F2937" stroke="#374151"/><text x="115" y="97" fill="#E5E7EB">🧠 Understand</text>
+      <path d="M115 114V136" stroke="#67E8F9" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arr)"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+      <rect x="0" y="140" width="230" height="44" rx="12" fill="#1F2937" stroke="#374151"/><text x="115" y="167" fill="#E5E7EB">⚡ Act</text>
+      <path d="M115 184V206" stroke="#67E8F9" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#arr)"><animate attributeName="stroke-dashoffset" from="16" to="0" dur="1s" repeatCount="indefinite"/></path>
+      <rect x="0" y="210" width="230" height="44" rx="12" fill="#1F2937" stroke="#374151"/><text x="115" y="237" fill="#E5E7EB">🔊 Respond</text>
+    </g>
+  </g>
+</svg>

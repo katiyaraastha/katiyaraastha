@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="t">
+  <title id="t">Full-stack plus AI pipeline: Frontend to Backend to AI layer to Deploy</title>
+  <defs>
+    <linearGradient id="n1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7C3AED"/><stop offset="1" stop-color="#4C1D95"/></linearGradient>
+    <linearGradient id="n2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2563EB"/><stop offset="1" stop-color="#1E3A8A"/></linearGradient>
+    <linearGradient id="n3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EC4899"/><stop offset="1" stop-color="#831843"/></linearGradient>
+    <linearGradient id="n4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#06B6D4"/><stop offset="1" stop-color="#155E75"/></linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#9CA3AF"/>
+    </marker>
+  </defs>
+
+  <rect width="1000" height="230" rx="18" fill="#0B1020"/>
+  <rect x="1" y="1" width="998" height="228" rx="18" fill="none" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="2"/>
+
+  <g font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" text-anchor="middle">
+    <!-- connectors -->
+    <g stroke="#9CA3AF" stroke-width="2" stroke-dasharray="6 6" marker-end="url(#arrow)" fill="none">
+      <path d="M215 115H262"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+      <path d="M463 115H512"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+      <path d="M713 115H762"><animate attributeName="stroke-dashoffset" from="24" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    </g>
+
+    <g>
+      <rect x="30" y="55" width="185" height="120" rx="16" fill="url(#n1)"/>
+      <text x="122" y="100" font-size="30">🎨</text>
+      <text x="122" y="132" font-size="20" font-weight="700" fill="#FFFFFF">Frontend</text>
+      <text x="122" y="156" font-size="14" fill="#DDD6FE">React · TypeScript · CSS</text>
+    </g>
+    <g>
+      <rect x="265" y="55" width="198" height="120" rx="16" fill="url(#n2)"/>
+      <text x="364" y="100" font-size="30">⚙️</text>
+      <text x="364" y="132" font-size="20" font-weight="700" fill="#FFFFFF">Backend</text>
+      <text x="364" y="156" font-size="14" fill="#BFDBFE">Node.js · REST APIs · DB</text>
+    </g>
+    <g>
+      <rect x="515" y="55" width="198" height="120" rx="16" fill="url(#n3)"/>
+      <text x="614" y="100" font-size="30">🧠</text>
+      <text x="614" y="132" font-size="20" font-weight="700" fill="#FFFFFF">AI Layer</text>
+      <text x="614" y="156" font-size="14" fill="#FBCFE8">Python · ML · LLM APIs</text>
+    </g>
+    <g>
+      <rect x="765" y="55" width="205" height="120" rx="16" fill="url(#n4)"/>
+      <text x="867" y="100" font-size="30">🚀</text>
+      <text x="867" y="132" font-size="20" font-weight="700" fill="#FFFFFF">Ship</text>
+      <text x="867" y="156" font-size="14" fill="#CFFAFE">Git · CI/CD · Cloud</text>
+    </g>
+
+    <text x="500" y="30" font-size="14" fill="#9CA3AF" letter-spacing="3">THE PRODUCT PIPELINE I AM LEARNING TO OWN, END TO END</text>
+    <text x="500" y="208" font-size="13" fill="#6B7280" letter-spacing="2">IDEA  →  INTERFACE  →  LOGIC  →  INTELLIGENCE  →  PRODUCTION</text>
+  </g>
+</svg>
